@@ -10,11 +10,9 @@ To develop a machine learning model that classifies iris flowers into one of thr
 
 📊 Dataset:
 
-Source: UCI Machine Learning Repository
-
 Records: 150 samples
 
-Features:
+•  Features:
 
 Sepal Length (cm)
 
@@ -24,7 +22,7 @@ Petal Length (cm)
 
 Petal Width (cm)
 
-Target (Class Labels):
+•  Target (Class Labels):
 
 Iris-setosa
 
@@ -34,15 +32,15 @@ Iris-virginica
 
 🎯 Task:
 
-Perform exploratory data analysis (EDA)
+•  Perform exploratory data analysis (EDA)
 
-Train multiple classification models
+•  Train multiple classification models
 
-Compare their performance
+•  Compare their performance
 
-Visualize decision boundaries
+•  Visualize decision boundaries
 
-Evaluate the best model using metrics like accuracy, precision, recall, F1-score, and confusion matrix
+•  Evaluate the best model using metrics like accuracy, precision, recall, F1-score, and confusion matrix
 
 🛠️ Tech Stack:
 
@@ -50,53 +48,53 @@ Language: Python
 
 Libraries:
 
-Pandas, NumPy — data manipulation
+•  Pandas, NumPy — data manipulation
 
-Matplotlib, Seaborn — data visualization
+•  Matplotlib, Seaborn — data visualization
 
-Scikit-learn — model training and evaluation
+• Scikit-learn — model training and evaluation
 
-Mlxtend — decision boundary plotting
+•  Mlxtend — decision boundary plotting
 
 🤖 Models Used:
 
-Logistic Regression
+• Logistic Regression
 
-Support Vector Classifier (SVC)
+• Support Vector Classifier (SVC)
 
-Decision Tree Classifier
+• Decision Tree Classifier
 
-K-Nearest Neighbors (KNN)
+• K-Nearest Neighbors (KNN)
 
 🏆 Best Model:
 
 Support Vector Classifier (SVC)
 
-Training Accuracy: 99.13%
+•  Training Accuracy: 99.13%
 
-Test Accuracy: 96.66%
+•  Test Accuracy: 96.66%
 
-Balanced performance with minimal overfitting
+•  Balanced performance with minimal overfitting
 
 📈 Evaluation Metrics:
 
-Accuracy: Model's overall performance
+•  Accuracy: Model's overall performance
 
-Precision / Recall / F1-Score: Performance per class
+•  Precision / Recall / F1-Score: Performance per class
 
-Confusion Matrix: Visualization of true vs predicted classifications
+•  Confusion Matrix: Visualization of true vs predicted classifications
 
 ✅ Model demonstrated high accuracy and consistency across metrics, especially with SVC.
 
 📸 Output:
 
-Plotted correlation heatmaps and pair plots to understand data distribution
+•  Plotted correlation heatmaps and pair plots to understand data distribution
 
-Visualized model decision boundaries
+• Visualized model decision boundaries
 
-Created confusion matrix and classification report
+• Created confusion matrix and classification report
 
-Deployed a function to make predictions on new input data
+•  Deployed a function to make predictions on new input data
 
 🧠 Conclusion:
 
